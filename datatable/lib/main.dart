@@ -27,6 +27,7 @@ class _MyDataTableState extends State<MyDataTable> {
     return Scaffold(
       body: Center(
         child: DataTable(
+          decoration: BoxDecoration( color: Colors.white, border: Border.all()),
           columns: [
             DataColumn(label: Text("Column 1")),
             DataColumn(label: Text("Column 2")),
