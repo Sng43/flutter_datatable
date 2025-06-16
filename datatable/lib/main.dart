@@ -29,7 +29,10 @@ class _MyDataTableState extends State<MyDataTable> {
       body: Center(
         child: DataTable(
           checkboxHorizontalMargin: 24.0,
-          decoration: BoxDecoration( color: Colors.white, border: Border.all()),
+          clipBehavior: Clip.antiAlias,
+          // border: TableBorder(borderRadius: BorderRadius.all(Radius.circular(20))),
+          // headingRowColor: MaterialStateProperty.all(Colors.red),
+          // decoration: BoxDecoration( color: Colors.white, border: Border.all()),
           columns: [
             DataColumn(label: Text("Column 1")),
             DataColumn(label: Text("Column 2")),
