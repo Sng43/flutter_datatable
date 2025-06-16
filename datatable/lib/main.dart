@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:data_table_2/data_table_2.dart';
 
 void main() {
   runApp(const MyApp());
@@ -27,6 +28,7 @@ class _MyDataTableState extends State<MyDataTable> {
     return Scaffold(
       body: Center(
         child: DataTable(
+          checkboxHorizontalMargin: 24.0,
           decoration: BoxDecoration( color: Colors.white, border: Border.all()),
           columns: [
             DataColumn(label: Text("Column 1")),
@@ -65,3 +67,50 @@ class _MyDataTableState extends State<MyDataTable> {
       );
   }
 }
+
+
+// class _MyDataTableState extends State<MyDataTable> {
+//   @override
+//   Widget build(BuildContext context) {
+//     return Scaffold(
+//       body: Center(
+//         child: DataTable2(
+
+//           decoration: BoxDecoration( color: Colors.white, border: Border.all()),
+//           columns: [
+//             DataColumn(label: Text("Column 1")),
+//             DataColumn(label: Text("Column 2")),
+//             DataColumn(label: Text("Column 3")),
+//             DataColumn(label: Text("Column 4")),
+//           ],
+//           rows: [
+//             DataRow(cells:[
+//               DataCell(Text('cell 1')),
+//               DataCell(Text('cell 2')),
+//               DataCell(Text('cell 2')),
+//               DataCell(Text('cell 2')),
+//             ]),
+//             DataRow(cells:[
+//               DataCell(Text('cell 3')),
+//               DataCell(Text('cell 4')),
+//               DataCell(Text('cell 2')),
+//               DataCell(Text('cell 2')),
+//             ]),
+//                DataRow(cells:[
+//               DataCell(Text('cell 1')),
+//               DataCell(Text('cell 2')),
+//               DataCell(Text('cell 2')),
+//               DataCell(Text('cell 2')),
+//             ]),
+//             DataRow(cells:[
+//               DataCell(Text('cell 3')),
+//               DataCell(Text('cell 4')),
+//               DataCell(Text('cell 2')),
+//               DataCell(Text('cell 2')),
+//             ]),
+//           ],
+//           ),
+//       )
+//       );
+//   }
+// }
