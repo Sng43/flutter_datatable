@@ -1,5 +1,3 @@
-# Updated README content with run steps, attribute notes, and screenshot references
-updated_readme_content = """
 # 📊 Flutter Data Table Demo
 
 This Flutter application demonstrates how to implement a simple data table using the built-in [`DataTable`](https://api.flutter.dev/flutter/material/DataTable-class.html) widget, as well as the enhanced [`DataTable2`](https://pub.dev/packages/data_table_2) widget from the `data_table_2` package for more advanced styling and flexibility.
