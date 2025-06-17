@@ -18,5 +18,22 @@ This Flutter application demonstrates how to implement a simple data table using
 2. Clone or download this project to your local machine.
 3. Navigate to the project directory:
    ```bash
-   cd datatable
+   cd datatable```
+4. Then install dependencies
+   ```bash
+   flutter pub get
+5. Run the app
+   ```bash
+   flutter run
+
+## How to Run
+Attributes Used
+
+- columns: Defines the column headers.
+- rows: Defines the data cells.
+- checkboxHorizontalMargin: Sets margin for checkbox column.
+- clipBehavior: Controls clipping of child widgets inside the table.
+
+
+
 
