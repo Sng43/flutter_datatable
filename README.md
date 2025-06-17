@@ -29,11 +29,19 @@ This Flutter application demonstrates how to implement a simple data table using
 ## How to Run
 Attributes Used
 
+### Datatable
 - columns: Defines the column headers.
 - rows: Defines the data cells.
 - checkboxHorizontalMargin: Sets margin for checkbox column.
 - clipBehavior: Controls clipping of child widgets inside the table.
 
+### Datatable(optional)
+- Offers additional spacing and decoration options.
+- Use the decoration, border, minWidth, columnSpacing for advanced customization.
+
+| Portrait Mode | Landscape Mode |
+|---------------|----------------|
+| ![Portrait](screenshots/port.jpeg) | ![Landscape](screenshots/land.jpeg) |
 
 
 
