@@ -18,7 +18,7 @@ This Flutter application demonstrates how to implement a simple data table using
 2. Clone or download this project to your local machine.
 3. Navigate to the project directory:
    ```bash
-   cd datatable```
+   cd datatable
 4. Then install dependencies
    ```bash
    flutter pub get
