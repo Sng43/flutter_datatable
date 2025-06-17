@@ -37,31 +37,26 @@ class _MyDataTableState extends State<MyDataTable> {
             DataColumn(label: Text("Column 1")),
             DataColumn(label: Text("Column 2")),
             DataColumn(label: Text("Column 3")),
-            DataColumn(label: Text("Column 4")),
           ],
           rows: [
             DataRow(cells:[
               DataCell(Text('cell 1')),
               DataCell(Text('cell 2')),
               DataCell(Text('cell 2')),
-              DataCell(Text('cell 2')),
             ]),
             DataRow(cells:[
               DataCell(Text('cell 3')),
               DataCell(Text('cell 4')),
-              DataCell(Text('cell 2')),
               DataCell(Text('cell 2')),
             ]),
                DataRow(cells:[
               DataCell(Text('cell 1')),
               DataCell(Text('cell 2')),
               DataCell(Text('cell 2')),
-              DataCell(Text('cell 2')),
             ]),
             DataRow(cells:[
               DataCell(Text('cell 3')),
               DataCell(Text('cell 4')),
-              DataCell(Text('cell 2')),
               DataCell(Text('cell 2')),
             ]),
           ],
